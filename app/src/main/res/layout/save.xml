@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDF9F9">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:fontFamily="monospace"
+        android:text="Save your score:"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/score_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:fontFamily="monospace"
+        android:text="score"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Enter your name "
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/save_sc"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:text="Save"
+        android:background="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@+id/editname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+ />
+</RelativeLayout>

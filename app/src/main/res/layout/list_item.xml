@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/MyListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingBottom="3dip"
+        android:paddingLeft="10dip">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <TextView
+            android:id="@+id/personName"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="30dip"></TextView>
+
+        <TextView
+            android:id="@+id/personScore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="24sp"></TextView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

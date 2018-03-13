@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDF9F9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="Help"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+            <Button
+                android:id="@+id/back"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/editText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF"
+                android:text="MAIN MENU"
+                android:fontFamily="monospace"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/editText"
+                android:layout_below="@+id/textView5"
+                android:fontFamily="monospace"
+                android:text="Welcome !"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:background="#E5FDFD"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="2sp"
+                android:text="Welcome to Breakout Game! \nThe aim of the game is to break all the bricks within three lives. \nA brick will break when it is hit by the ball.  Move the paddle by moving your finger left and right on the screen.  You must stop the ball from exiting the bottom of the screen or you will lose a life.  \nFor every brick you break your score will increase. After the ball hits the paddle and breaks a brick you will receive 1 point."
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
